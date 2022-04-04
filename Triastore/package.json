@@ -1,0 +1,33 @@
+{
+  "name": "triastore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server_grpc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.7",
+    "body-parser": "^1.19.0",
+    "buffer-chunks": "^0.1.1",
+    "compress-json": "^1.0.4",
+    "compressed-json": "^1.0.16",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "express": "^4.0.0",
+    "fabric-client": "^1.4.0",
+    "fabric-network": "^1.4.0",
+    "fs": "0.0.1-security",
+    "hashmap": "^2.4.0",
+    "jsonpack": "^1.1.5",
+    "moment": "^2.29.1",
+    "node-go-require": "^2.0.0",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2",
+    "zipson": "^0.2.12",
+    "zlib": "^1.0.5"
+  }
+}

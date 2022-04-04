@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message FederatedRequest {
+  string timestamp=1;
+  string round=2;
+  bytes server_state = 3;
+  bytes sampled_train_data = 4;
+  string clients_participated = 5;
+  string broadcasted_bits = 6;
+  string aggregated_bits = 7;
+}
+
+message FederatedResponse {
+  string response = 1;
+}
+
+service FederatedService {
+  rpc Search (FederatedRequest) returns (FederatedResponse);
+}
